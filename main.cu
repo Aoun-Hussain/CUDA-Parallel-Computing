@@ -1,20 +1,4 @@
 /*
-Author: Aoun Hussain
-Class: ECE 6122-A
-Last Date Modified: Sat, Nov 20, 2021
-Description: This is the cuda source file for the solution of Lab5.
-             Takes 4 arguments -N following number of dimensions and
-             -I following total iterations and executes the laplace
-             equations using jacobian iterations to update the temperature
-             of the square plate. Writes the output temperature coordinates to
-             the csv file and output the total execution time. Uses CUDA and
-             multi-threaded GPUS for the purpose.
-
-Special Note: The results in the temperature array are rounded off to 10 decimal places, as
-              it was required to do at least 6 on Piazza. It is done for precision!
-*/
-
-/*
 Compilations Instructions: Use the following command to run:
                             "nvcc --std=c++11 *.cu -o executable.out"
 */
